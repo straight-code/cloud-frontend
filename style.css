@@ -203,8 +203,8 @@ header>.nav-margin>ul>li>a:hover:before{
     background:white;
     color:rgb(49, 49, 49);
     text-decoration:none;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius:50px;
     transition:0.5s all;
     padding:15px 30px;
