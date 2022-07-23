@@ -2,10 +2,26 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title> straight Cloud Storage </title>
+  <title>straight-code | Cloud </title>
   <link rel="stylesheet" href="./style.css">
   <link rel="shortcut icon" type="image/x-icon" href="./assets/bg.png" />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script>
+    (function(d,t) {
+      var BASE_URL="https://app.chatwoot.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: 'xdPpniryN6aBRxvYhGKzHB2f',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -162,7 +178,7 @@
                 </div>
 
                 <footer>
-                    <div class='footer-margin' style="">
+                    <div class='footer-margin' >
                         <div class='footer-list'>
                             <h1>Support</h1>
                             <ul>
@@ -174,10 +190,10 @@
                         <div class='footer-list'>
                             <h1>Services</h1>
                             <ul>
-                                <li><a href='#'>Budget  Hosting</a></li>
-                                <li><a href='#'>VPN</a></li>
-                                <li><a href='#'>Cloud Storage</a></li>
-                                <li><a href='#'>API</a></li>
+                                <li><a href='https://hosting.straight-code.xyz'>Budget  Hosting</a></li>
+                                <li><a href='https://vpn.straight-code.xyz'>VPN</a></li>
+                                <li><a href='https://courses.straight-code.xyz'>Courses</a></li>
+                                <li><a href='https://api.straight-code.xyz'>API</a></li>
                             </ul>
                         </div>
                         <div class='footer-list'>
