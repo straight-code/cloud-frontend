@@ -511,7 +511,7 @@ footer{
 }
 
 .footer-list{
-    margin-left:10px;
+    margin-left:20px;
 }
 
 .footer-list>ul{
@@ -522,7 +522,7 @@ footer{
 }
 
 .footer-list>ul>li{
-    margin:0px 0;
+    margin:20px 0;
 }
 
 .footer-list>h1{
