@@ -507,7 +507,7 @@ footer{
     display:flex;
     flex-direction:row;
     width:calc(100% - 300px);
-    margin:20px;
+    margin:30px;
 }
 
 .footer-list{
