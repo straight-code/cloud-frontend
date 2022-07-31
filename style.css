@@ -507,11 +507,11 @@ footer{
     display:flex;
     flex-direction:row;
     width:calc(100% - 300px);
-    margin:20px auto;
+    margin:20px;
 }
 
 .footer-list{
-    margin-left:20px;
+    margin-left:10px;
 }
 
 .footer-list>ul{
@@ -522,7 +522,7 @@ footer{
 }
 
 .footer-list>ul>li{
-    margin:20px 0;
+    margin:0px 0;
 }
 
 .footer-list>h1{
