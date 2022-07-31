@@ -507,7 +507,7 @@ footer{
     display:flex;
     flex-direction:row;
     width:calc(100% - 300px);
-    margin:40px auto;
+    margin:20px auto;
 }
 
 .footer-list{
@@ -518,7 +518,7 @@ footer{
     list-style:none;
     padding:0;
     margin:0;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .footer-list>ul>li{
@@ -536,7 +536,7 @@ footer{
     bottom:-15px;
     left:0;
     content:'';
-    width:50px;
+    width:30px;
     height:3px;
     background:rgb(133, 133, 133);
 }
